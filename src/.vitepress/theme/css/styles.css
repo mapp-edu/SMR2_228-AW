@@ -447,3 +447,30 @@ html {
     page-break-inside: avoid;
   }
 }
+
+/* ── Tablas (añadido para el módulo 0228) ─────────────────────────────────
+   El texto justificado de .vp-doc deja huecos en las celdas estrechas.
+   Las alineaciones de Markdown (:---:) siguen funcionando (estilo en línea). */
+.vp-doc table td,
+.vp-doc table th {
+  text-align: left;
+}
+
+/* Rúbricas de las prácticas: ancho completo y columnas repartidas
+   para que los cinco niveles (0-4) se vean sin desplazamiento horizontal */
+.ejercicios-page .vp-doc table {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+.ejercicios-page .vp-doc table th:first-child { width: 17%; }
+.ejercicios-page .vp-doc table th:nth-child(2) { width: 11%; }
+.ejercicios-page .vp-doc table td,
+.ejercicios-page .vp-doc table th {
+  padding: 8px 8px;
+  font-size: inherit;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}

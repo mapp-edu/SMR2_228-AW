@@ -20,7 +20,7 @@ export const PROJECT = {
   //   '/'                   → dominio raíz (https://midominio.com/)
   //
   // ⚠️ Siempre con barras al inicio Y al final.
-  basePath: '/EduPress/',
+  basePath: '/SMR_228-AW/',
 
   // --------------------------------------------------------------------------
   // IDIOMA
@@ -31,7 +31,7 @@ export const PROJECT = {
   // DESCRIPCIÓN DEL SITIO
   // --------------------------------------------------------------------------
   // Aparece en los metadatos SEO y como subtítulo en buscadores.
-  description: 'EduPress — Plantilla modular para VitePress',
+  description: '228-Aplicaciones Web',
 
   // --------------------------------------------------------------------------
   // COPYRIGHT (pie de página)
@@ -71,7 +71,7 @@ export const PROJECT = {
   // Iconos disponibles: 'github', 'twitter', 'gitlab', 'discord', 'youtube', etc.
   // Deja el array vacío [] si no quieres mostrar ningún enlace social.
   socialLinks: [
-    { icon: 'github', link: 'https://github.com/GGEdu' },
+    { icon: 'github', link: 'https://github.com/mapp-edu' },
   ] as DefaultTheme.SocialLink[],
 
   // --------------------------------------------------------------------------
