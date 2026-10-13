@@ -20,7 +20,7 @@ export const PROJECT = {
   //   '/'                   → dominio raíz (https://midominio.com/)
   //
   // ⚠️ Siempre con barras al inicio Y al final.
-  basePath: '/SMR_228-AW/',
+  basePath: '/SMR2_228-AW/',
 
   // --------------------------------------------------------------------------
   // IDIOMA
